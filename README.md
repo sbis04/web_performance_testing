@@ -1,4 +1,4 @@
-# web_benchmarks_example
+# flutter_web_performance
 
 An example app for web benchmarks testing.
 
