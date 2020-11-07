@@ -4,9 +4,6 @@ workflows:
     environment:
       flutter: dev
     scripts:
-      - name: Set up local properties
-        script: |
-          echo "flutter.sdk=$HOME/programs/flutter" > "$FCI_BUILD_DIR/android/local.properties"
       - name: Get flutter packages
         script: |
           cd . && flutter packages pub get
