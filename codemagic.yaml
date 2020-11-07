@@ -6,13 +6,10 @@ workflows:
     scripts:
       - name: Get flutter packages
         script: |
-          brew unlink dart
-          brew install --head dart
-          flutter config --enable-web
           cd . && flutter packages pub get
       - name: Run benchmarks
         script: |
-          dart test/run_benchmarks.dart
+          flutter test --machine > report.json test/run_benchmarks.dart
     publishing:
       email:
         recipients:
