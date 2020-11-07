@@ -6,6 +6,8 @@ workflows:
     scripts:
       - name: Get flutter packages
         script: |
+          brew unlink dart
+          brew install --head dart
           cd . && flutter packages pub get
       - name: Run benchmarks
         script: |
