@@ -1,0 +1,62 @@
+Running "flutter pub get" in flutter_web_performance...            547ms
+{"protocolVersion":"0.1.1","runnerVersion":null,"pid":49217,"type":"start","time":0}
+{"suite":{"id":0,"platform":"vm","path":"/Users/souvikbiswas/Desktop/flutter_web_performance/test/run_benchmarks.dart"},"type":"suite","time":0}
+{"test":{"id":1,"name":"loading /Users/souvikbiswas/Desktop/flutter_web_performance/test/run_benchmarks.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":1}
+{"count":1,"type":"allSuites","time":4}
+{"testID":1,"messageType":"print","message":"\nExecuting: flutter build web --dart-define=FLUTTER_WEB_ENABLE_PROFILING=true --profile -t lib/benchmarks/runner.dart in .","type":"print","time":1845}
+{"testID":1,"messageType":"print","message":"stdout: Running \"flutter pub get\" in flutter_web_performance...            511ms","type":"print","time":3095}
+{"testID":1,"messageType":"print","message":"stdout: Compiling lib/benchmarks/runner.dart for the Web...                22.8s","type":"print","time":26083}
+{"testID":1,"messageType":"print","message":"\"flutter\" exit code: 0","type":"print","time":26372}
+{"testID":1,"messageType":"print","message":"Launching Chrome.","type":"print","time":26391}
+{"testID":1,"messageType":"print","message":"Launching Google Chrome 86.0.4240.183 \n","type":"print","time":26543}
+{"testID":1,"messageType":"print","message":"Waiting for the benchmark to report benchmark profile.","type":"print","time":26544}
+{"testID":1,"messageType":"print","message":"[CHROME]: [1107/230007.025184:ERROR:xattr.cc(63)] setxattr org.chromium.crashpad.database.initialized on file /var/folders/s0/f_zf1k095ng72zlmz590h6240000gn/T/: Operation not permitted (1)","type":"print","time":26628}
+{"testID":1,"messageType":"print","message":"[CHROME]: [1107/230007.027382:ERROR:file_io.cc(90)] ReadExactly: expected 8, observed 0","type":"print","time":26629}
+{"testID":1,"messageType":"print","message":"[CHROME]: [1107/230007.030222:ERROR:xattr.cc(63)] setxattr org.chromium.crashpad.database.initialized on file /var/folders/s0/f_zf1k095ng72zlmz590h6240000gn/T/: Operation not permitted (1)","type":"print","time":26632}
+{"testID":1,"messageType":"print","message":"[CHROME]: ","type":"print","time":26704}
+{"testID":1,"messageType":"print","message":"[CHROME]: DevTools listening on ws://127.0.0.1:10000/devtools/browser/7dadafa8-d0cd-4cad-bcc7-72f56021a35b","type":"print","time":26705}
+{"testID":1,"messageType":"print","message":"Connecting to DevTools: http://localhost:10000","type":"print","time":26774}
+{"testID":1,"messageType":"print","message":"Connected to Chrome tab:  (http://localhost:9999/index.html)","type":"print","time":26834}
+{"testID":1,"messageType":"print","message":"Launching benchmark \"scroll\"","type":"print","time":27353}
+{"testID":1,"messageType":"print","message":"Extracted 299 measured frames.","type":"print","time":35875}
+{"testID":1,"messageType":"print","message":"Skipped 1 non-measured frames.","type":"print","time":35875}
+{"testID":1,"messageType":"print","message":"Launching benchmark \"tap\"","type":"print","time":36000}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 0...","type":"print","time":36415}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 1...","type":"print","time":36831}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 2...","type":"print","time":37235}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 3...","type":"print","time":37639}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 4...","type":"print","time":38043}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 5...","type":"print","time":38450}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 6...","type":"print","time":38854}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 7...","type":"print","time":39257}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 8...","type":"print","time":39659}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 9...","type":"print","time":40062}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 10...","type":"print","time":40465}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 11...","type":"print","time":40868}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 12...","type":"print","time":41271}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 13...","type":"print","time":41673}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 14...","type":"print","time":42076}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 15...","type":"print","time":42479}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 16...","type":"print","time":42881}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 17...","type":"print","time":43283}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 18...","type":"print","time":43688}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 19...","type":"print","time":44091}
+{"testID":1,"messageType":"print","message":"Extracted 502 measured frames.","type":"print","time":50025}
+{"testID":1,"messageType":"print","message":"Skipped 1 non-measured frames.","type":"print","time":50026}
+{"testID":1,"messageType":"print","message":"Launching benchmark \"page\"","type":"print","time":50152}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 0...","type":"print","time":50568}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 1...","type":"print","time":51422}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 2...","type":"print","time":52229}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 3...","type":"print","time":53041}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 4...","type":"print","time":53849}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 5...","type":"print","time":54662}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 6...","type":"print","time":55467}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 7...","type":"print","time":56278}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 8...","type":"print","time":57104}
+{"testID":1,"messageType":"print","message":"[Gallery] Testing round 9...","type":"print","time":57925}
+{"testID":1,"messageType":"print","message":"Extracted 496 measured frames.","type":"print","time":63620}
+{"testID":1,"messageType":"print","message":"Skipped 1 non-measured frames.","type":"print","time":63621}
+{"testID":1,"messageType":"print","message":"Received profile data","type":"print","time":63759}
+{"testID":1,"messageType":"print","message":"{\n  \"success\": true,\n  \"data\": {\n    \"scroll.html.preroll_frame.average\": 56.5959595959596,\n    \"scroll.html.preroll_frame.outlierAverage\": 700,\n    \"scroll.html.preroll_frame.outlierRatio\": 12.368374085311439,\n    \"scroll.html.preroll_frame.noise\": 0.17040244378474095,\n    \"scroll.html.apply_frame.average\": 167.88297872340425,\n    \"scroll.html.apply_frame.outlierAverage\": 597.1666666666666,\n    \"scroll.html.apply_frame.outlierRatio\": 3.5570411676488605,\n    \"scroll.html.apply_frame.noise\": 0.45786774655778695,\n    \"scroll.html.drawFrameDuration.average\": 692.3804347826087,\n    \"scroll.html.drawFrameDuration.outlierAverage\": 3793.875,\n    \"scroll.html.drawFrameDuration.outlierRatio\": 5.479465925681722,\n    \"scroll.html.drawFrameDuration.noise\": 0.2595127236427873,\n    \"scroll.html.totalUiFrame.average\": 2472,\n    \"tap.html.preroll_frame.average\": 42.32142857142857,\n    \"tap.html.preroll_frame.outlierAverage\": 68.75,\n    \"tap.html.preroll_frame.outlierRatio\": 1.6244725738396626,\n    \"tap.html.preroll_frame.noise\": 0.13936830856467297,\n    \"tap.html.apply_frame.average\": 317.3888888888889,\n    \"tap.html.apply_frame.outlierAverage\": 1100.4,\n    \"tap.html.apply_frame.outlierRatio\": 3.467040084018904,\n    \"tap.html.apply_frame.noise\": 0.9232802531526046,\n    \"tap.html.drawFrameDuration.average\": 777.578947368421,\n    \"tap.html.drawFrameDuration.outlierAverage\": 5343,\n    \"tap.html.drawFrameDuration.outlierRatio\": 6.871328008663869,\n    \"tap.html.drawFrameDuration.noise\": 0.6583101009350404,\n    \"tap.html.totalUiFrame.average\": 594,\n    \"page.html.preroll_frame.average\": 56.86813186813187,\n    \"page.html.preroll_frame.outlierAverage\": 144.66666666666666,\n    \"page.html.preroll_frame.outlierRatio\": 2.5438969404186795,\n    \"page.html.preroll_frame.noise\": 0.22608365330589947,\n    \"page.html.apply_frame.average\": 677.3563218390805,\n    \"page.html.apply_frame.outlierAverage\": 2500.769230769231,\n    \"page.html.apply_frame.outlierRatio\": 3.691955253299221,\n    \"page.html.apply_frame.noise\": 0.7711467828374805,\n    \"page.html.drawFrameDuration.average\": 1740.7303370786517,\n    \"page.html.drawFrameDuration.outlierAverage\": 6091.272727272727,\n    \"page.html.drawFrameDuration.outlierRatio\": 3.499262693091965,\n    \"page.html.drawFrameDuration.noise\": 0.6061585717258612,\n    \"page.html.totalUiFrame.average\": 3269\n  },\n  \"benchmarkScoreKeys\": [\n    \"scroll.html.drawFrameDuration.average\",\n    \"scroll.html.drawFrameDuration.outlierRatio\",\n    \"scroll.html.totalUiFrame.average\",\n    \"tap.html.drawFrameDuration.average\",\n    \"tap.html.drawFrameDuration.outlierRatio\",\n    \"tap.html.totalUiFrame.average\",\n    \"page.html.drawFrameDuration.average\",\n    \"page.html.drawFrameDuration.outlierRatio\",\n    \"page.html.totalUiFrame.average\"\n  ]\n}","type":"print","time":63769}
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":63794}
+{"success":true,"type":"done","time":63849}

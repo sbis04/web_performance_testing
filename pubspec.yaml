@@ -1,0 +1,27 @@
+name: flutter_web_performance
+description: An example app for testing flutter web performance.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  web_benchmarks_framework:
+    git:
+      url: https://github.com/material-components/material-components-flutter-experimental.git
+      ref: f6ebb4ed3b6489547d9ae58216df9999112be568
+      path: web_benchmarks_framework
+
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
