@@ -1,0 +1,19 @@
+workflows:
+  flutter-web:
+    name: Performance testing
+    environment:
+      flutter: dev
+    scripts:
+      - name: Set up local properties
+        script: |
+          echo "flutter.sdk=$HOME/programs/flutter" > "$FCI_BUILD_DIR/android/local.properties"
+      - name: Get flutter packages
+        script: |
+          cd . && flutter packages pub get
+      - name: Run benchmarks
+        script: |
+          dart test/run_benchmarks.dart
+    publishing:
+      email:
+        recipients:
+          - sbis1999@gmail.com
