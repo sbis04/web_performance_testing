@@ -14,6 +14,8 @@ workflows:
       - name: Run benchmarks
         script: |
           flutter test --machine test/run_benchmarks.dart | tojunit --output report.xml
+    artifacts:
+      - report.xml
     publishing:
       email:
         recipients:
