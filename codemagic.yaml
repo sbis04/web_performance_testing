@@ -13,7 +13,7 @@ workflows:
           cd . && pub global activate junitreport
       - name: Run benchmarks
         script: |
-          flutter test --machine | tojunit --output report.xml
+          flutter test --machine | tojunit --output report.xml test/run_benchmarks.dart
     publishing:
       email:
         recipients:
