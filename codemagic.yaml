@@ -4,12 +4,18 @@ workflows:
     environment:
       flutter: dev
     scripts:
-      - name: Get flutter packages
+      - name: Switch to dart dev
         script: |
           brew unlink dart
           brew install --head dart
+      - name: Enable flutter web
+        script: |
           flutter config --enable-web
+      - name: Get flutter packages
+        script: |
           cd . && flutter packages pub get
+      - name: Activate JUnit Report
+        script: |
           cd . && pub global activate junitreport
       - name: Run benchmarks
         script: |
