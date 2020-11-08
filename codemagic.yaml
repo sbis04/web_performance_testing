@@ -19,7 +19,7 @@ workflows:
           dart test/run_benchmarks.dart
     artifacts:
       - report.json
-      - build/web
+      - build/web/
     publishing:
       email:
         recipients:
