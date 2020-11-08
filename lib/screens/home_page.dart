@@ -22,7 +22,6 @@ class _HomePageState extends State<HomePage> {
   }
 
   parseJsonData() async {
-    // String jsonData = await DefaultAssetBundle.of(context).loadString('assets/data.json');
     var parsedJson = json.decode(jsonData);
 
     CoffeeTypes coffeeTypes = CoffeeTypes.fromJson(parsedJson);
