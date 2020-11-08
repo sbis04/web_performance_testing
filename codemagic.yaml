@@ -14,14 +14,10 @@ workflows:
       - name: Get flutter packages
         script: |
           cd . && flutter packages pub get
-      - name: Activate JUnit Report
-        script: |
-          cd . && pub global activate junitreport
       - name: Run benchmarks
         script: |
-          flutter test --machine test/run_benchmarks.dart | tojunit --output report.xml
+          dart test/run_benchmarks.dart
     artifacts:
-      - report.xml
       - report.json
       - build/web
     publishing:
