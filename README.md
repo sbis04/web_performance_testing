@@ -2,13 +2,13 @@
 
 An example project for testing Flutter Web performance on **Chrome**, and retrieving benchmark results using Chrome’s DevTools.
 
+This app demonstrates how to run performance tests in Chrome using the [web_benchmarks_framework](https://github.com/material-components/material-components-flutter-experimental/tree/develop/web_benchmarks_framework) package.
+
 ## Sample app
 
 The sample app that I have used here is called **Coffee Brewery**. It just displays a list of coffee types along with some description. A floating action button (FAB) is present to increment the number of coffees in the cart.
 
 ![](https://github.com/sbis04/web_performance_testing/raw/master/screenshots/coffee_brewery.png)
-
-This app demonstrates how to run performance tests in Chrome using the [web_benchmarks_framework](https://github.com/material-components/material-components-flutter-experimental/tree/develop/web_benchmarks_framework) package.
 
 ## Codemagic YAML
 
