@@ -2,7 +2,7 @@
 
 An example project for testing Flutter Web performance on **Chrome**, and retrieving benchmark results using Chrome’s DevTools.
 
-This app demonstrates how to run performance tests in Chrome using the [web_benchmarks_framework](https://github.com/material-components/material-components-flutter-experimental/tree/develop/web_benchmarks_framework) package.
+This app uses the [web_benchmarks_framework](https://github.com/material-components/material-components-flutter-experimental/tree/develop/web_benchmarks_framework) package.
 
 ## Sample app
 
