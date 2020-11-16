@@ -1,4 +1,6 @@
+[![Codemagic build status](https://api.codemagic.io/apps/5fa6dbf4e55b871f6b841471/5fa6dbf4e55b871f6b841470/status_badge.svg)](https://codemagic.io/apps/5fa6dbf4e55b871f6b841471/5fa6dbf4e55b871f6b841470/latest_build)
 # Flutter Web Performance Testing
+
 
 An example project for testing Flutter Web performance on **Chrome**, and retrieving benchmark results using Chrome’s DevTools.
 
